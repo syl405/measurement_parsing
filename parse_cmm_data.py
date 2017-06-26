@@ -24,7 +24,7 @@ def parse_cmm_data(file_path):
 		match_obj = re.search(pat,file_contents)
 
 		if match_obj:
-			outputs.append({'Specimen Code': '3D-MAP-01',
+			outputs.append({'Specimen Code': '3D-MAP-01_ver1',
 							'Feature Number': i,
 							'Z': match_obj.group(1),
 							'Flatness': match_obj.group(2),
