@@ -19,7 +19,11 @@ def parse_cmm_data(file_path):
 
 	outputs = []
 
-	for i in range(1,173,1):
+	# Match datum A
+	match_obj = re.search(r'==> Plane \(6\)\n\.\.: Parallelism\nDatum Plane\s+XY\nParallelism\s+(\d+\.\d+)',file_contents)
+ 
+	# Match column top surfaces
+	for i in range(7,179,1):
 		pat = pat_f+str(i)+pat_r
 		match_obj = re.search(pat,file_contents)
 
