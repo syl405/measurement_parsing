@@ -23,7 +23,7 @@ def parse_cmm_data(file_path):
 	match_obj = re.search(r'==> Plane \(6\)\n\.\.: Parallelism\nDatum Plane\s+XY\nParallelism\s+(\d+\.\d+)',file_contents)
  
 	# Match column top surfaces
-	for i in range(7,179,1):
+	for i in range(7,196,1):
 		pat = pat_f+str(i)+pat_r
 		match_obj = re.search(pat,file_contents)
 

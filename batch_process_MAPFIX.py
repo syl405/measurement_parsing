@@ -2,8 +2,8 @@ import os
 import csv
 from parse_cmm_data import parse_cmm_data
 
-INPUT_DIR_PATH = 'D:\\Dropbox (MIT)\\Spring 2017\\NVBOTS Dropbox\\Summer\\error_mapping_artifact\\metrology_data\\MAPFIX1\\raw_data\\'
-OUTPUT_DIR_PATH = 'D:\\Dropbox (MIT)\\Spring 2017\\NVBOTS Dropbox\\Summer\\error_mapping_artifact\\metrology_data\\MAPFIX1\\parsed_csv\\'
+INPUT_DIR_PATH = 'D:\\Dropbox (MIT)\\Spring 2017\\NVBOTS Dropbox\\Summer\\error_mapping_artifact\\metrology_data\\MAPFIXCORR\\raw_data\\'
+OUTPUT_DIR_PATH = 'D:\\Dropbox (MIT)\\Spring 2017\\NVBOTS Dropbox\\Summer\\error_mapping_artifact\\metrology_data\\MAPFIXCORR\\parsed_csv\\'
 
 raw_file_list = os.listdir(INPUT_DIR_PATH)
 outputs = []
